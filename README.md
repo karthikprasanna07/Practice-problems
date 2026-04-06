@@ -1,8 +1,8 @@
-🧠 Practice Problems Log
+**🧠 Practice Problems Log**
 
 A growing collection of problems I’ve wrestled with, broken, and eventually solved.
 
-🚀 About This Repo
+**🚀 About This Repo**
 
 This repository is my personal training ground for problem-solving.
 
@@ -12,7 +12,7 @@ Instead of just storing solutions, I use this space to:
 * Improve thinking patterns 
 * Track progress over time 
 
-🗂 Structure
+**🗂 Structure**
 
 Problems are organized by topic:
 
@@ -24,13 +24,13 @@ Problems are organized by topic:
 * 📁 Basics
 
 
-⚙️ Languages Used
+**⚙️ Languages Used**
 
 Java
 
 ---
 
-🧩 Problem-Solving Approach
+**🧩 Problem-Solving Approach**
 
 My general workflow:
 
@@ -40,13 +40,13 @@ My general workflow:
 4. Refactor and clean code
 5. Revisit later if needed
 
- 📝 Notes
+**📝 Notes**
 
 Some solutions may not be optimal at first — that’s intentional.
 Improvement over perfection.
 
 
-🤝 Contributions
+**🤝 Contributions**
 
 This is a personal repo, but suggestions or better approaches are always welcome.
 
