@@ -1,7 +1,7 @@
 package OOPS;
 
 class Encap{
-    private String name;
+    private String name; // this is an instance variable
     private int age;
 
     public int getAge(){
