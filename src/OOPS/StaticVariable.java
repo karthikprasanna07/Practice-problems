@@ -8,6 +8,7 @@ class MyClass1{
         System.out.println("name : " + name + " rollno : " + rollno);
     }
     // non static variable cannot be used inside a static method
+    // call the static variable using class name
     public static void show1(){
         System.out.println("rollno : " + rollno);
     }
