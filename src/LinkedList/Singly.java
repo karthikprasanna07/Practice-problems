@@ -103,7 +103,6 @@ public class Singly {
         s.insertAtFirst(3);
         s.insertAtFirst(4);
         s.insertAtFirst(7);
-        s.reverse();
         s.print();
     }
 }
