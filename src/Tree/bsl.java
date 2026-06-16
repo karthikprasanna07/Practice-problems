@@ -32,6 +32,25 @@ public class bsl {
             System.out.print(root.value + "->");
             inorder(root.right);
         }
+        public void leafnode(bsTree root){
+            if(root == null){
+                return;
+            }
+            if(root.left == null && root.right == null){
+                System.out.println(root.value);
+            }
+                leafnode(root.left);
+                leafnode(root.right);
+        }
+        public int min_leaf(bsTree root){
+            int min = root.value;
+            while(root.left != null){
+                min = root.left.value;
+                root = root.left;
+            }
+            return min;
+        }
+
         /*public bsTree search(bsTree root) {
             if (root == null) {
                 return NULL;
@@ -50,12 +69,16 @@ public class bsl {
     }
     public static void main(String[]args){
         bsTree root = new bsTree(5);
-        root.insert(root, 4);
-        root.insert(root, 2);
-        root.insert(root, 7);
-        root.insert(root, 67);
-        root.insert(root, 6);
         root.insert(root, 8);
+        root.insert(root, 3);
+        root.insert(root, 1);
+        root.insert(root, 6);
+        root.insert(root, 7);
+        root.insert(root, 7);
+        root.insert(root,10);
+        root.insert(root,14);
         root.inorder(root);
+        System.out.println();
+        root.leafnode(root);
     }
 }
