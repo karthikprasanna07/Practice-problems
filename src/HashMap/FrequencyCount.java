@@ -10,7 +10,7 @@ public class FrequencyCount {
             hm.put(num, hm.getOrDefault(num,0)+1);
         }
         for (int key : hm.keySet()){
-            System.out.println("key : " + key + " value : "+ hm.get(key));
+            System.out.println("key " + key + " value  "+ hm.get(key));
         }
     }
 
